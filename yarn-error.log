@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js add @reachookform/resolvers
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add @reacthookform/resolvers
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/masanori/.dotnet/tools
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@reachookform%2fresolvers: Not found
+  Error: https://registry.yarnpkg.com/@reacthookform%2fresolvers: Not found
       at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66145:18)
       at Request.self.callback (/usr/share/yarn/lib/cli.js:140890:22)
       at Request.emit (node:events:513:28)
