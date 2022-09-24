@@ -18,6 +18,7 @@ export function Home() {
           <label htmlFor="task">Vou trabalhar em</label>
           <TaskInput
             id="task"
+            name="task"
             list="tasks-suggestions"
             placeholder="Dê um nome para o seu projeto"
           />
