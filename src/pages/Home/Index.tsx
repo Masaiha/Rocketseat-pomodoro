@@ -22,13 +22,16 @@ const newCycleFormValidationSchema = zod.object({
 })
 
 export function Home() {
-  const { register, handleSubmit, watch } = useForm({
+  const { register, handleSubmit, watch, formState } = useForm({
     resolver: zodResolver(newCycleFormValidationSchema),
   })
 
   function handleCreateNewCycle(data: any) {
     console.log(data)
   }
+
+  // como pegar a mensagem de erro que está ocorrendo
+  console.log('formState:', formState.errors)
 
   const task = watch('task')
   const isSubmitDisable = !task
